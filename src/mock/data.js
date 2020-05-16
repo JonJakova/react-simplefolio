@@ -2,93 +2,100 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jon Jakova | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Jon Jakova',
+  subtitle: `I'm a developer`,
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // img: 'profile.jpg',
+  paragraphOne: ` I have a passion for programming and building software that are reliable and maintainable
+                  I graduated at the Canadian Institute of Technology as a Software Engineer.`,
+  paragraphTwo: 'My most proficient programming languange are C#, Java and Javascript.',
+  paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
+  resume: 'https://drive.google.com/file/d/1WOZtAq3FnLMR9A0n59MhOisBrcW7xaIh/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'smartbrain-logo.png',
+    title: 'Smartbrain',
+    info: ` A webapp that identifies a person face in a given image.
+            The app takes a URL of an image and displayes the image with the face framed.`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://s-smart-brain.herokuapp.com/',
+    repo: 'https://github.com/JonJakova/smartbrain', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robofriends-logo.png',
+    title: 'Robofriends',
+    info: 'A simple application that generate robots card developed in React.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jonjakova.github.io/robofriends/',
+    repo: 'https://github.com/JonJakova/robofriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ecomm-logo.png',
+    title: 'Ecomm',
+    info: 'An ecommerce webapp developed in JSF.',
+    info2: 'The application is meant to be used as consumer-to-consumer store.',
+    // url: '',
+    repo: 'https://github.com/JonJakova/Ecomm-Online-Store', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Email me at jon.jakova@gmail.com',
+  btn: `Let's talk`,
+  email: 'jon.jakova@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jon-jakova-baa33b1a4/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/JonJakova',
+    },
+    {
+      id: uuidv1(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/jon_jakova',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
