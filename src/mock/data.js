@@ -18,9 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   // img: 'profile.jpg',
-  paragraphOne: ` I have a passion for programming and building software that are reliable and maintainable
+  paragraphOne: ` I have a passion for programming and building software that are reliable and easily maintainable.
                   I graduated at the Canadian Institute of Technology as a Software Engineer.`,
-  paragraphTwo: 'My most proficient programming languange are C#, Java and Javascript.',
+  paragraphTwo:
+    'My most proficient programming languange are C#, Java and Javascript but I feel quite confortable working with Python and C++ as well.',
   paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
   resume: 'https://drive.google.com/file/d/1WOZtAq3FnLMR9A0n59MhOisBrcW7xaIh/view', // if no resume, the button will not show up
 };
@@ -45,6 +46,25 @@ export const projectsData = [
     info2: '',
     url: 'https://jonjakova.github.io/robofriends/',
     repo: 'https://github.com/JonJakova/robofriends', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'movie-chart.png',
+    title: 'MovieChart',
+    info: 'Webapp where you can learn about upcoming movies.',
+    info2: 'The information is updated frequently and automatically.',
+    // url: '',
+    repo: 'https://github.com/JonJakova/movie-chart', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'rin.png',
+    title: 'Rin Compiler',
+    info: 'Rin is a simple compiler written in C#.',
+    info2: `It support features such as mathematical and logical operations, strings, i/o, 
+    conditional statements and loops.`,
+    // url: '',
+    repo: 'https://github.com/JonJakova/rin', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -91,6 +111,11 @@ export const footerData = {
       id: uuidv1(),
       name: 'instagram',
       url: 'https://www.instagram.com/jon_jakova',
+    },
+    {
+      id: uuidv1(),
+      name: 'gitlab',
+      url: 'https://gitlab.com/JonJakova',
     },
   ],
 };
