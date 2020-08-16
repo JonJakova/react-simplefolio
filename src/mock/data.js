@@ -40,21 +40,21 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'movie-chart.png',
+    title: 'MovieChart',
+    info: 'Webapp where you can learn about upcoming movies.',
+    info2: 'The information is updated frequently and automatically.',
+    url: 'https://moviechart.herokuapp.com/',
+    repo: 'https://github.com/JonJakova/movie-chart', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'robofriends-logo.png',
     title: 'Robofriends',
     info: 'A simple application that generate robots card developed in React.',
     info2: '',
     url: 'https://jonjakova.github.io/robofriends/',
     repo: 'https://github.com/JonJakova/robofriends', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'movie-chart.png',
-    title: 'MovieChart',
-    info: 'Webapp where you can learn about upcoming movies.',
-    info2: 'The information is updated frequently and automatically.',
-    // url: '',
-    repo: 'https://github.com/JonJakova/movie-chart', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
