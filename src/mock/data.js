@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'My most proficient programming languange are C#, Java and Javascript but I feel quite confortable working with Python and C++ as well.',
   paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
-  resume: 'https://drive.google.com/file/d/1lLoZI6uJEDTpTs8ItbgPj22mROogPr74/view', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1gqmGphZLxY2XAxCdSKqYe9hU5PbQ_BpB/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
