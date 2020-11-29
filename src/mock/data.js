@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jon Jakova | Developer', // e.g: 'Name | Developer'
+  title: 'Jon Jakova | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Jon Jakova',
-  subtitle: `I'm a developer`,
-  cta: 'Know more',
+  subtitle: `I'm a software engineer`,
+  cta: 'Learn more about me',
 };
 
 // ABOUT DATA
@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne: ` I have a passion for programming and building software that are reliable and easily maintainable.
                   I graduated at the Canadian Institute of Technology as a Software Engineer.`,
   paragraphTwo:
-    'My most proficient programming languange are C#, Java and Javascript but I feel quite confortable working with Python and C++ as well.',
+    'My most proficient programming languange are Python and Javascript (ES6 / Typescript) and C# but I feel quite confortable working with Java and C++ as well.',
   paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
-  resume: 'https://drive.google.com/file/d/1lLoZI6uJEDTpTs8ItbgPj22mROogPr74/view', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1t2MDIQUUsB9tm8yRj-uO_T1FtDHyOKOS/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
