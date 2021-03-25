@@ -21,13 +21,42 @@ export const aboutData = {
   paragraphOne: ` I have a passion for programming and building software that are reliable and easily maintainable.
                   I graduated at the Canadian Institute of Technology as a Software Engineer.`,
   paragraphTwo:
-    'My most proficient programming languange are Python, Javascript (ES6 / Typescript) and C# but I feel quite confortable working with Java and C++ as well.',
+    'My most proficient technologies are NodeJs and C# but I feel quite confortable working with Java and C++ as well.',
   paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
   resume: 'https://drive.google.com/file/d/1qE6xma5g2v8rFNCdBQRN60ZO6t65mSeB/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'csoa.png',
+    title: 'CSOA',
+    info: ` A community driven mobile application for the organization
+            of sport games and the reservation of sport fields`,
+    info2: ` The mobile application was created with the use of Ionic SDK (using React)
+            while the API was written in NodeJs (ExpressJs)`,
+  },
+  {
+    id: uuidv1(),
+    img: 'automjet_logo.png',
+    title: 'Automjet',
+    info: ` A web-page created for the purpose of trading automobiles.
+            The technology used is Python (Django).`,
+    info2: '',
+    url: 'https://automjet.al/',
+  },
+  {
+    id: uuidv1(),
+    img: 'ibx-logo1.png',
+    title: 'IBX Service internal management system',
+    info: ` A full operational system for the management of both employees and job
+            for the IBX Service Canada company.`,
+    info2: `The system was divided into three units: The mobile application used by the employees,
+            the management webapp used by the middle-managers and the API to connect the two
+            The mobile app was implemented using Ionic SDK, The mangement webapp uses React
+            and the API was implemented with NodeJS (NestJs)`,
+  },
   {
     id: uuidv1(),
     img: 'smartbrain-logo.png',
