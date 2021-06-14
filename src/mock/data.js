@@ -30,13 +30,24 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'csoa.png',
-    title: 'CSOA',
-    info: ` A community driven mobile application for the organization
-            of sport games and the reservation of sport fields`,
-    info2: ` The mobile application was created with the use of Ionic SDK (using React)
-            while the API was written in NodeJs (ExpressJs)`,
+    img: 'spycam.png',
+    title: 'SPYCAM',
+    info: `'Security Python Camera', a.k.a 'SPYCAM', is a python software
+            for monitoring and reporting.`,
+    info2: `Is uses opencv to frame every input from the camera of system running the script
+            and compare them to a machine-learned model to see whether it caught sign of a person.
+            In case it does, it sends an email to the user with the frame attached`,
+    repo: 'https://github.com/JonJakova/spycam',
   },
+  // {
+  //   id: uuidv1(),
+  //   img: 'csoa.png',
+  //   title: 'CSOA',
+  //   info: ` A community driven mobile application for the organization
+  //           of sport games and the reservation of sport fields`,
+  //   info2: ` The mobile application was created with the use of Ionic SDK (using React)
+  //           while the API was written in NodeJs (ExpressJs)`,
+  // },
   {
     id: uuidv1(),
     img: 'automjet_logo.png',
@@ -46,17 +57,17 @@ export const projectsData = [
     info2: '',
     url: 'https://automjet.al/',
   },
-  {
-    id: uuidv1(),
-    img: 'ibx-logo1.png',
-    title: 'IBX Service internal management system',
-    info: ` A full operational system for the management of both employees and job
-            for the IBX Service Canada company.`,
-    info2: `The system was divided into three units: The mobile application used by the employees,
-            the management webapp used by the middle-managers and the API to connect the two
-            The mobile app was implemented using Ionic SDK, The mangement webapp uses React
-            and the API was implemented with NodeJS (NestJs)`,
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'ibx-logo1.png',
+  //   title: 'IBX Service internal management system',
+  //   info: ` A full operational system for the management of both employees and job
+  //           for the IBX Service Canada company.`,
+  //   info2: `The system was divided into three units: The mobile application used by the employees,
+  //           the management webapp used by the middle-managers and the API to connect the two
+  //           The mobile app was implemented using Ionic SDK, The mangement webapp uses React
+  //           and the API was implemented with NodeJS (NestJs)`,
+  // },
   {
     id: uuidv1(),
     img: 'smartbrain-logo.png',
@@ -76,15 +87,15 @@ export const projectsData = [
     url: 'https://moviechart.herokuapp.com/',
     repo: 'https://github.com/JonJakova/movie-chart', // if no repo, the button will not show up
   },
-  {
-    id: uuidv1(),
-    img: 'robofriends-logo.png',
-    title: 'Robofriends',
-    info: 'A simple application that generate robots card developed in React.',
-    info2: '',
-    url: 'https://jonjakova.github.io/robofriends/',
-    repo: 'https://github.com/JonJakova/robofriends', // if no repo, the button will not show up
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'robofriends-logo.png',
+  //   title: 'Robofriends',
+  //   info: 'A simple application that generate robots card developed in React.',
+  //   info2: '',
+  //   url: 'https://jonjakova.github.io/robofriends/',
+  //   repo: 'https://github.com/JonJakova/robofriends', // if no repo, the button will not show up
+  // },
   {
     id: uuidv1(),
     img: 'rin.png',
