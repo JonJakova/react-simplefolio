@@ -44,7 +44,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'My most proficient technologies are NodeJs and C# but I feel quite confortable working with Java and C++ as well.'}
+                    'My favorite technologies are C#, C++ and React while my most proficient ones are Java and NodeJS.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
