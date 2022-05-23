@@ -18,12 +18,14 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   // img: 'profile.jpg',
-  paragraphOne: ` I have a passion for programming and building software that are reliable and easily maintainable.
-                  I graduated at the Canadian Institute of Technology as a Software Engineer.`,
-  paragraphTwo:
-    'My most proficient technologies are NodeJs and C# but I feel quite confortable working with Java and C++ as well.',
-  paragraphThree: 'Feel free to check my resume and the projects I have worked on!',
-  resume: 'https://drive.google.com/file/d/1qE6xma5g2v8rFNCdBQRN60ZO6t65mSeB/view?usp=sharing', // if no resume, the button will not show up
+  paragraphOne: `I am a Software Engineer with a passion for cutting-edge technologies. I am currently working as a technical director`,
+  paragraphTwo: `While I don't have a preferred technology stack (or even a preferred programming language) 
+    I usually prefer to work with technologies which dial down the abstraction layer a bit, like Rust,
+    or reliable technologies which are proven to work, like Java.
+    That said, I'm not opposed to work with technologies which enable you to get the job down quickly, like Python or Lua.`,
+  paragraphThree:
+    'Feel free to check my resume and some of the open-source projects I have worked on!',
+  resume: 'https://drive.google.com/file/d/1rEbx-LgoxduFhb1w6zZVGrwfrN1Oge1W/view?usp=drivesdk', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -48,15 +50,15 @@ export const projectsData = [
   //   info2: ` The mobile application was created with the use of Ionic SDK (using React)
   //           while the API was written in NodeJs (ExpressJs)`,
   // },
-  {
-    id: uuidv1(),
-    img: 'automjet_logo.png',
-    title: 'Automjet',
-    info: ` A web-page created for the purpose of trading automobiles.
-            The technology used is Python (Django).`,
-    info2: '',
-    url: 'https://automjet.al/',
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'automjet_logo.png',
+  //   title: 'Automjet',
+  //   info: ` A web-page created for the purpose of trading automobiles.
+  //           The technology used is Python (Django).`,
+  //   info2: '',
+  //   url: 'https://automjet.al/',
+  // },
   // {
   //   id: uuidv1(),
   //   img: 'ibx-logo1.png',
